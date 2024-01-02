@@ -22,6 +22,7 @@ def uppercase(s):
 
     print(result)  # Print the modified string followed by a new line
 
+
 # Test the function
 if __name__ == "__main__":
     uppercase("best")
