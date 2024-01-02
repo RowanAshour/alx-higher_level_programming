@@ -10,16 +10,17 @@ def uppercase(s):
     Returns:
     - None
     """
+    result = ""
     for char in s:
         # Check if the character is a lowercase letter
         if ord('a') <= ord(char) <= ord('z'):
             # Convert the lowercase letter to uppercase using ASCII adjustment
-            print("{:c}".format(ord(char) - ord('a') + ord('A')), end='')
+            result += "{:c}".format(ord(char) - ord('a') + ord('A'))
         else:
-            # Print non-lowercase characters as they are
-            print(char, end='')
+            # Append non-lowercase characters as they are
+            result += char
 
-    print()  # Add a new line at the end
+    print(result)  # Print the modified string followed by a new line
 
 # Test the function
 if __name__ == "__main__":
