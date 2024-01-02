@@ -9,8 +9,7 @@ last_digit = abs(number) % 10 * -1 if number < 0 else abs(number) % 10
 # Print the result
 print("Last digit of", number, "is", last_digit, end=' ')
 
-# Check if the last digit is greater than 5,
-#equal to 0, or less than 6 and not 0
+# Check if the last digit is >5,= 0, or < 6 and not 0
 if last_digit > 5:
     print("and is greater than 5")
 elif last_digit == 0:
