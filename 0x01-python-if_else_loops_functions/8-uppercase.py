@@ -18,8 +18,8 @@ def uppercase(s):
         else:
             # Print non-lowercase characters as they are
             print(char, end='')
-    print()  # Add a new line at the end
 
+    print()  # Add a new line at the end
 
 # Test the function
 if __name__ == "__main__":
