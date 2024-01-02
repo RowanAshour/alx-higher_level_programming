@@ -13,4 +13,3 @@ else:
 
 # Print the generated number and result
 print(f"{number} {result}")
-
