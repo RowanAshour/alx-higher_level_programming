@@ -1,7 +1,0 @@
-#!/usr/bin/python3
-
-def read_file(filename=""):
-    with open(filename, encoding="utf-8") as file:
-        # Read the content of the file and print it to stdout
-        print(file.read(), end="")
-
