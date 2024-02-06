@@ -1,19 +1,14 @@
 #!/usr/bin/python3
-def write_file(filename="", text=""):
+"""
+number_of_lines function module.
+
+Define number_of_lines function.
+"""
+
+
+def number_of_lines(filename=""):
+    """Returns the number of lines of a text file (UTF8).
+    filename (file): the file, must exist, must have permissions
     """
-    Writes a string to a text file (UTF8) and returns the number of characters written.
-
-    Args:
-        filename (str): The name of the file to write.
-        text (str): The string to write to the file.
-
-    Returns:
-        int: The number of characters written.
-    """
-    with open(filename, mode='w', encoding='utf-8') as file:
-        return file.write(text)
-
-if __name__ == "__main__":
-    nb_characters = write_file("my_first_file.txt", "This School is so cool!\n")
-    print(nb_characters)
-
+    with open(filename, encoding="UTF-8") as myfile:
+        return len(myfile.readlines())
