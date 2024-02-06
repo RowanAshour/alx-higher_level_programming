@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 We offer a truly innovative approach to education:
+=======
+
+ffer a truly innovative approach to education:
+>>>>>>> ed0d6b20f6870fa4fe0a4f00f343ce3eb7a6fa56
 focus on building reliable applications and scalable systems, take on real-world challenges, collaborate with your peers. 
 
 A school every software engineer would have dreamt of!

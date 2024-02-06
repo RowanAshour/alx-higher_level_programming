@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 read_file = __import__('0-read_file').read_file
 
 read_file("my_file_0.txt")
 
+=======
+d_file = __import__('0-read_file').read_file
+
+read_file("my_file_0.txt")
+>>>>>>> ed0d6b20f6870fa4fe0a4f00f343ce3eb7a6fa56
